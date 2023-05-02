@@ -1,0 +1,332 @@
+#WorkConteiner{
+    width: 100%;
+    height: 3133px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    width: 100%;
+    height: 3133px;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #1C1E53;
+}
+.LeftTextATag{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1E53;
+    text-decoration: none;
+    width: 30%;
+    height: 100%;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.RightText{
+    width: 55%;
+    height: 100%;
+    color: #BBBBCB;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.NavbarForm{
+    height: 30px;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #1C1E53;
+    color: #BBBBCB;
+    font-size: 17px;
+    text-decoration: none;
+}
+.ContactUsForm{
+    background: #1C1E53;
+    color: white;
+    border: 2px solid lightslategray;
+    border-radius: 25px;
+    padding: 15px 30px;
+    background-color: #1C1E53;
+    color: white;
+    text-decoration: none;
+}
+#WhatWeCreated{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 331px;
+    background: #F4F6FC;
+}
+#Toptxt{
+    height: 1px;
+    font-size: 11px;
+    font-weight: 50;
+    font-size: 16px;
+    text-align: center;
+    color: #282938;
+}
+#Toptxt1{
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    color: #282938;
+}
+#Toptxt2{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #282938;
+    width: 49%;
+}
+#Toptxt3{
+    display: flex;
+    width: 48%;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #282938;
+}
+#CenterTemplate{
+    display: flex;
+    width: 100%;
+    height: 1900px;
+    align-items: center;
+    flex-direction: column;
+}
+#CenterTemp{
+    display: flex;
+    width: 80%;
+    height: 2000px;
+    flex-direction: column;
+}
+#Centertxt{
+    display: flex;
+    height: 138px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#centertxt{
+    width: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Txt1c{
+    color: #2405F2;
+}
+#Txt2c{
+    color: #282938;
+}
+#Centerimgs{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: space-between;
+}
+#Centertxt1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 136px;
+    justify-content: space-between;
+    margin-bottom: 51px;
+}
+#Template1{
+    height: 136px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#idtmp1{
+    font-weight: 600;
+    font-size: 38px;
+    color: #282938;
+}
+#idtmp2{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #282938;
+}
+#idtmp3{
+    font-weight: 500;
+    font-size: 16px;
+    color: #282938;
+}
+#BottomTxt{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 308px;
+}
+#botttxt1{
+    height: 134px;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    width: 42%;
+    color: #282938;
+}
+#botttxt2{
+    display: flex;
+    width: 39%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #282938;
+}
+#Contactus{
+    display: flex;
+    height: 113px;
+    width: 31%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+#Contactus span{
+    width: 55%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 22px;
+    background: #FCD980;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#Contactus span:hover{
+    background: #282938;
+    color: #FCD980;
+    width: 50%;
+    height: 50px ;
+}
+#Centerimgs img:hover{
+    height: 370px;
+    box-shadow: 2px 2px 2px 1px gray;
+}
+
+.Footer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.FooterTop{
+    width: 100%;
+    height: 400px;
+    background: #1C1E53;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.FooterTopLeft{
+    width: 54%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.FooterTopLeftTop{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;    
+}
+.FooterTopLeftBottom{
+    width: 60%;
+    height: 100px;
+    background: #FCD980;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.FooterTopLeftBottomLeft{
+    width: 45%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FooterTopLeftBottomRight{
+    width: 55%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FooterTopRight{
+    width: 46%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.FooterBottom{
+    width: 100%;
+    height: 100px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.FooterBottomLeft{
+    width: 21%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.FooterBottomRight{
+    width: 36%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.FooterBottomRightTextDiv{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

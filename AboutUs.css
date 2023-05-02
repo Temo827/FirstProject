@@ -1,0 +1,417 @@
+html, body{
+    width: 100%;
+    height: 4569px;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 4569px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #1C1E53;
+}
+.LeftTextATag{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1E53;
+    text-decoration: none;
+    width: 30%;
+    height: 100%;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.RightText{
+    width: 55%;
+    height: 100%;
+    color: #BBBBCB;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.NavbarForm{
+    height: 30px;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #1C1E53;
+    color: #BBBBCB;
+    font-size: 17px;
+    text-decoration: none;
+}
+.ContactUsForm{
+    background: #1C1E53;
+    color: white;
+    border: 2px solid lightslategray;
+    border-radius: 25px;
+    padding: 15px 30px;
+    background-color: #1C1E53;
+    color: white;
+    text-decoration: none;
+}
+
+.OurDesignsSolveProblems{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.OurDesignsSolveProblemsCenter{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.OurDesignsSolveProblemsCenterText{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.WhoWeAre{
+    width: 80%;
+    height: 716px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.WhoWeAreCenter{
+    width: 100%;
+    height: 376px;
+    background-color: #F4F5F5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.GoalFocussed{
+    width: 50%;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.GoalFocussedText{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.GoalFocussedBottomDiv{
+    height: 197px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.ContinuousImprovement{
+    width: 50%;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.ContinuousImprovementText{
+    width: 100%;
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.TheProccesWeFollow{
+    margin-top: 50px;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.TheProccesWeFollowCenter{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TheProccesWeFollowCenterImages{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 22%;
+}
+.TheProccesWeFollowBottom{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TheProccesWeFollowBottomText{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.OurMission{
+    width: 100%;
+    height: 850px;
+    background-color: #F4F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.OurMissionTop{
+    width: 80%;
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.OurMissionTopText{
+    width: 60%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.OurMissionBottom{
+    width: 80%;
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.OurMissionBottomText{
+    width: 60%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.OurMissionBottomTextDiv{
+    width: 69%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.TheBenefits{
+    width: 100%;
+    height: 725px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.TheBenefitsMother{
+    width: 80%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.TheBenefitsCenter{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+.TheBenefitsCenterDiv{
+    background-color: #F4F6FC;
+    width: 30%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.TheBenefitsCenterDivMother{
+    width: 85%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.TheBenefitsBottom{
+    width: 80%;
+    height: 75px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MeetOurTeam{
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+    background-color: #F4F6FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.MeetOurTeamBottom{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.MeetOurTeamBottomDiv{
+    width: 20%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+.MeetOurTeamBottomDivTopText{
+    font-size: 24px;
+    font-weight: bold;
+}
+.MeetOurTeamBottomDivBottomText{
+    font-weight: 400; 
+    font-size: 16px;
+    color: grey;
+}
+
+.Footer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.FooterTop{
+    width: 100%;
+    height: 400px;
+    background: #1C1E53;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.FooterTopLeft{
+    width: 54%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.FooterTopLeftTop{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;    
+}
+.FooterTopLeftBottom{
+    width: 60%;
+    height: 100px;
+    background: #FCD980;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.FooterTopLeftBottomLeft{
+    width: 45%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FooterTopLeftBottomRight{
+    width: 55%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FooterTopRight{
+    width: 46%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.FooterBottom{
+    width: 100%;
+    height: 100px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.FooterBottomLeft{
+    width: 21%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.FooterBottomRight{
+    width: 36%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.FooterBottomRightTextDiv{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

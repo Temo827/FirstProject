@@ -1,0 +1,555 @@
+html, body{
+    width: 100%;
+    height: 2470px;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 2470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #1C1E53;
+}
+.LeftTextATag{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1E53;
+    text-decoration: none;
+    width: 30%;
+    height: 100%;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.RightText{
+    width: 55%;
+    height: 100%;
+    color: #BBBBCB;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.NavbarForm{
+    height: 30px;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #1C1E53;
+    color: #BBBBCB;
+    font-size: 17px;
+    text-decoration: none;
+}
+.ContactUsForm{
+    background: #1C1E53;
+    color: white;
+    border: 2px solid lightslategray;
+    border-radius: 25px;
+    padding: 15px 30px;
+    background-color: #1C1E53;
+    color: white;
+    text-decoration: none;
+}
+
+.OurPricing{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.OurPricingText{
+    height: 150px;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.OurPricingMain{
+    width: 80%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.OurPricingMainDiv1{
+    width: 30%;
+    height: 700px;
+    background: #F4F6FC;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.OurPricingMainDiv1:hover{
+    width: 31%;
+    height: 710px;
+}
+.OurPricingMainDiv2{
+    width: 30%;
+    height: 700px;
+    background: #1C1E53;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.OurPricingMainDiv2:hover{
+    width: 31%;
+    height: 710px;
+}
+.OurPricingMainDiv3{
+    width: 30%;
+    height: 700px;
+    background: #F4F6FC;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.OurPricingMainDiv3:hover{
+    width: 31%;
+    height: 710px;
+}
+.OurPricingMainDivMother1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 80%;
+    flex-direction: column;
+    height: 700px;
+}
+.OurPricingMainDivMother2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 80%;
+    flex-direction: column;
+    height: 700px;
+}
+.OurPricingMainDivMother3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 80%;
+    flex-direction: column;
+    height: 700px;
+}
+.OurPricingMainBottom{
+    width: 80%;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.OurPricingMainBottomDiv{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.OurPricingMainBottom3{
+    width: 80%;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.OurPricingMainBottomDiv3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.OurPricingMainDivTopText1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.OurPricingMainDivTopText2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.OurPricingMainDivTopText3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.OurPricingForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.OurPricingMainButton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 73%;
+    height: 55px;
+    background: #282938;
+    color: white;
+    border-radius: 41px;
+    border-width: 0px;
+}
+.OurPricingMainButton1:hover{
+    width: 78%;
+    height: 60px;
+}
+.OurPricingMainButton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 73%;
+    height: 55px;
+    background: #FCD980;
+    color: black;
+    border-radius: 41px;
+    border-width: 0px;
+}
+.OurPricingMainButton2:hover{
+    width: 78%;
+    height: 60px;
+}
+.OurPricingMainButton3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 73%;
+    height: 55px;
+    background: #282938;
+    color: white;
+    border-radius: 41px;
+    border-width: 0px;
+    text-decoration: none;
+}
+.OurPricingMainButton3:hover{
+    width: 78%;
+    height: 60px;
+}
+
+
+.FrequentlyAskedQuestions{
+    width: 80%;
+    height: 675px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FrequentlyAskedQuestionsMother{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.FrequentlyAskedQuestionsLeft{
+    width: 17%;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.FrequentlyAskedQuestionsRight{
+    width: 75%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.FrequentlyAskedQuestionsRightFirst{
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.FrequentlyAskedQuestionsRightFirstDiv{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FrequentlyAskedQuestionsRightTwond{
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.FrequentlyAskedQuestionsRightTwondDiv{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ForJsImg1{
+    cursor: pointer;
+}
+.ForJs1{
+    width: 65%;
+    display: none;
+}
+.ForJsImg2{
+    cursor: pointer;
+}
+.ForJs2{
+    width: 65%;
+    display: none;
+}
+.ForJsImg3{
+    cursor: pointer;
+}
+.ForJs3{
+    width: 65%;
+    display: none;
+}
+.ForJsImg4{
+    cursor: pointer;
+}
+.ForJs4{
+    width: 65%;
+    display: none;
+}
+.ForJsImg5{
+    cursor: pointer;
+}
+.ForJs5{
+    width: 65%;
+    display: none;
+}
+
+.Footer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.FooterTop{
+    width: 100%;
+    height: 400px;
+    background: #1C1E53;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.FooterTopLeft{
+    width: 54%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.FooterTopLeftTop{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;    
+}
+.FooterTopLeftBottom{
+    width: 60%;
+    height: 100px;
+    background: #FCD980;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.FooterTopLeftBottomLeft{
+    width: 45%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FooterTopLeftBottomRight{
+    width: 55%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FooterTopRight{
+    width: 46%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.FooterBottom{
+    width: 100%;
+    height: 100px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.FooterBottomLeft{
+    width: 21%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.FooterBottomRight{
+    width: 35%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.FooterBottomRightTextDiv{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Footer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.FooterTop{
+    width: 100%;
+    height: 400px;
+    background: #1C1E53;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.FooterTopLeft{
+    width: 54%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.FooterTopLeftTop{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;    
+}
+.FooterTopLeftBottom{
+    width: 60%;
+    height: 100px;
+    background: #FCD980;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.FooterTopLeftBottomLeft{
+    width: 45%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FooterTopLeftBottomRight{
+    width: 55%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FooterTopRight{
+    width: 46%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.FooterBottom{
+    width: 100%;
+    height: 100px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.FooterBottomLeft{
+    width: 21%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.FooterBottomRight{
+    width: 36%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.FooterBottomRightTextDiv{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
